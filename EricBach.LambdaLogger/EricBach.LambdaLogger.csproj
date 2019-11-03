@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>EricBach.LambdaLogger logs messages from AWS Lambda to CloudWatch Logs</Description>
+    <PackageProjectUrl>https://github.com/eric-bach/EricBach.LambdaLogger</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eric-bach/EricBach.LambdaLogger</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <!-- <VersionPrefix>1.0.7</VersionPrefix>
+    <VersionSuffix>beta</VersionSuffix> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
